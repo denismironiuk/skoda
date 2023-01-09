@@ -1,0 +1,90 @@
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+}
+article{
+    
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    
+}
+article img{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+article h2{
+    
+    max-width: 90%;
+    margin: 0 auto;
+   
+    text-align: center;
+    padding: 2rem;
+   
+
+}
+article p{
+    
+text-align: center;
+padding: 1rem;
+}
+
+
+figure{
+    width: 90%;
+    
+    padding: 4rem;
+    overflow: auto;
+
+    margin: 0 auto;
+    background-color: whitesmoke;
+    
+
+}
+
+
+figure h3{
+
+    padding: 2rem;
+
+
+    text-align: left;
+    text-transform: uppercase;
+}
+
+figure p{
+
+    padding: 2rem;
+    text-align: left;
+
+
+
+
+
+}
+
+.top figure img {
+    display: block;
+    
+    max-width: 50%;
+
+    float: left;
+    padding: 2rem;
+    
+    
+    
+   
+}
+
+
+
+.bottom figure img{
+    display: block;
+    max-width: 50%;
+    
+    float: right;
+    padding: 2rem;
+    
+
+}

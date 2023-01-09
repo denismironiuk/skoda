@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: white;
+
+}
+
+h2,h3,h4{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+image {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}

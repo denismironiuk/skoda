@@ -1,0 +1,80 @@
+main {
+ max-width: 1300px;
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+  position: relative;
+}
+
+
+
+figure img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+
+}
+
+table {
+
+
+  border-collapse: collapse;
+  text-align: center;
+
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: whitesmoke;
+  margin: 1em;
+
+
+}
+
+caption {
+
+  text-align: start;
+  padding-bottom: 0.5em;
+
+  font-size: 2em;
+  color: white;
+  font-weight: bolder;
+
+
+}
+
+caption span {
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+th,
+td {
+
+  padding: 0.5rem;
+  vertical-align: middle;
+
+
+}
+
+
+
+th:nth-last-of-type(3),
+th:nth-last-of-type(2),
+th:nth-last-of-type(1) {
+  border-left: 1px solid grey;
+
+
+}
+
+td:nth-last-of-type(1),
+td:nth-last-of-type(2),
+td:nth-last-of-type(3) {
+  border-left: 1px solid grey;
+}
+
+figure iframe {
+  width: 100%;
+  max-width: 1300px;
+}

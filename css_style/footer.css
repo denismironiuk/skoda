@@ -1,0 +1,56 @@
+
+footer {
+    margin-top:5rem ;
+    
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: rgb(1, 1, 12);
+    
+    
+    font-size:15px;
+
+    text-align: end;
+    position: relative;
+}
+
+   
+
+footer ul li {
+    display: inline-block;
+    
+
+    margin: .5em;
+}
+
+footer ul li a {
+   
+    display: inline-block;
+   
+   font-size: 2em;
+   
+    color: whitesmoke;
+text-align: center;
+transform: scale(0.5);
+}
+footer address {
+    position: absolute;
+    bottom:25%;
+    left: 0;
+    margin-left:0.5em ;
+    background: linear-gradient(black,green,black);
+    transform: scale(0.8);
+}
+footer address a{
+    color: white;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+   
+
+}
+footer ul li a:hover, footer address:hover{
+    
+    transition: 0.5s;
+    transform: scale(1);
+}
+
